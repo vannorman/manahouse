@@ -4,7 +4,7 @@
 }
 
 #top {
-    background-image:url(/static/img/top.jpg);background-size:cover;background-repeat:no-repeat;
+    background-image:url(/static/img/top2.jpg);background-size:cover;background-repeat:no-repeat;
     background-position:0px -100px;
     position:absolute;top:0;left:0;width:100%;height:300px;
     z-index:-2;
@@ -18,9 +18,13 @@
 
 #title {
     position:absolute; left:60px;top:15px;
-    font-family:cloisterBlack;
+    font-family:proximaNova;
     font-size:40px;
 }
+#title .sub { font-size:18px; font-family:Nunito}
+
+#topSpacer { position:relative;height:300px;}
+
 #buttonsList {
 display: inline-flex;
   flex-direction: row;
@@ -44,19 +48,37 @@ display: flex;
   justify-content: flex-start;
 
  }
+#brief 
+{}
 
 #summary {
-    position:relative; margin:0 auto; width:960px;
-    top:220px; font-size:1.5em; padding:10px;
+    position:relative; 
+    margin:0 auto; 
+    width:960px;
+    top:220px; 
+    font-size:1.2em; 
+    padding:10px;
     font-family:Nunito;
+    text-align:center;
+    outline:1px dashed red;
 }
-#summary .pic {
-    background-image:url('/static/img/yoga.jpg');
+#summary p {width:600px;margin:0 auto;}
+#menu {outline:2px solid black;position:relative;}
+#menu .background { 
+    width:100%;
+    height:500px;
+    background-image:url('/static/img/yoga.jpg'); 
     background-size:cover;
-    width:600px;
-    height:400px;
+    background-repeat:no-repeat;
+    background-position:center;
     margin:0 auto;
+    opacity:0.3;
 }
+
+#menu .text {
+   position:absolute; 
+}
+
 #main {
     position:relative; top: 300px; left:0;
     width:960px;
@@ -92,6 +114,10 @@ display: flex;
 @font-face {
     font-family: cloisterBlack;
     src: url(/static/fonts/CloisterBlack.ttf);
+}
+@font-face {
+    font-family: proximaNova;
+    src: url(/static/fonts/ProximaNova-Black.ttf);
 }
 
 @font-face {
