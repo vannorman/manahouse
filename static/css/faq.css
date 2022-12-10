@@ -9,7 +9,7 @@
   border: none;
   outline: none;
   transition: 0.4s;
-  font-size:1.4em;
+  font-size:1.0em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */

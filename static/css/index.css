@@ -1,18 +1,18 @@
-. {
-    font-family:nunito;
+html, body,  {
+    font-family:Nunito;
 
 }
 
 #top {
     background-image:url(/static/img/top2.jpg);background-size:cover;background-repeat:no-repeat;
-    background-position:0px -100px;
-    position:absolute;top:0;left:0;width:100%;height:300px;
+    background-position:0px -80px;
+    position:absolute;top:0;left:0;width:100%;height:360px;
     z-index:-2;
 }
 
 #swoop { 
-    background-image:url('/static/img/wave-haikei.svg'); background-size:cover;background-position:0% 20%; 
-    width:100%; height:300px; position:absolute; top:0;left:0;
+    background-image:url('/static/img/wave-haikei.svg'); background-size:cover;background-position:0% 10%; 
+    width:100%; height:360px; position:absolute; top:0;left:0;
     z-index:-1;
 }
 
@@ -34,8 +34,8 @@
     font-size:1.2em;
     padding-bottom:40px;
 }
+#brief h3 {margin-top:60px;}
 
-#brief h1 {font-family: Indie;font-size:2.5em;}
 
 #menu {
     position:relative;
@@ -44,11 +44,26 @@
     text-align:center;
     margin:-10px; 
 }
-#menu .schedule {
-    font-size:4em;font-weight:bold;
+.title {
+    font-size:2.5em;font-weight:bold;
     position:relative;
     top:40px;
+    font-family:Indie;
+    
 }
+.title2 {
+    font-size:3.5em;
+    font-weight:bold;
+    position:relative;
+    top:40px;
+    font-family:Indie;
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:70px;
+     
+}
+
+
 #menu .row {
     margin:0 auto;
     width:620px;
@@ -108,42 +123,33 @@
     position:relative;
     width:600px;
     margin:0 auto;
-    top:80px;
     font-family:Nunito;
-    font-size:1.4em;
+    font-size:1.1em;
 }
 #faq h1{ text-align:center; font-size:2.5em;font-weight:bold;}
 
-#main {
-    position:relative; top: 300px; left:0;
-    width:960px;
+#team {
+    position:relative; 
+    top: 50px; left:0;
+    width:100%;
     margin:0 auto; 
     padding:15px;
-}
-
-#main button {
-    margin: 0 auto;
-   padding:10px;
-    border-radius:20px;
-}
-
-#main .button {
-    text-align:center;
-    display:block;
+    text-align:center; 
+    font-family:Nunito;
 }
 
 
-#main_a, #main_b, #main_c {
+#team .member {
     vertical-align:top;
     margin: 10px;
     display: inline-block;
     width:290px;
     height:420px;
+    outline:1px dotted blue;
 }
+#team .member img { width:250px;height:250px;border-radius:125px;margin:0 auto;}
 
-#main_a { background-color: #3399aa}
-#main_b { background-color: #33aa99}
-#main_c { background-color: #6699ff}
+
 
 @font-face {
     font-family: Indie;
@@ -166,8 +172,8 @@
 /* MOSAIC from https://medium.com/@axel/mosaic-layouts-with-css-grid-d13f4e3ed2ae */
 
 .container{
+    top:50px;
     position:relative;
-    top:300px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1rem;
@@ -206,11 +212,96 @@
 
 .apply
 {
-    margin:0 auto;
-    padding:8px 20px;
-    font-size:20px;
-    border-radius:20px;
+
+	border-radius: 40px;
+  box-sizing: border-box;
+	color: #00a84f;
+	display: block;
+	font-size:1.2em;
+    height: 80px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	width: 264px;
+	z-index: 2;
+    
 }
 
-.apply:hover {background-color:#4a4;cursor:pointer;}
+.apply:hover {
+background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+color:white;
+cursor:pointer;
 
+}
+
+.apply input {
+	align-items: center;
+	background: #e7e8e9;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;}
+
+.booknow {
+    margin:0 auto;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+#pricing {
+    margin:0 auto;
+    width:760px;
+    position:relative;
+    font-family:Nunito;
+    text-align:center;
+}
+@media only screen and (max-width:760px){ #pricing {width:100%;}; }
+
+#pricing .item {
+    display:inline-block;
+    width:370px;
+    height:180px;
+    border: 1px solid black;
+    overflow:auto;
+    vertical-align:middle;
+    margin-bottom:4px;
+    text-align:left;
+}
+
+#pricing .pic
+{
+    float:left;
+    vertical-align:middle;
+    margin-top:20px;
+    width:100px;
+    height:100px;
+    background-size:cover;
+    opacity:0.5; 
+}
+
+#pricing .desc
+{
+    width:250px;
+    margin-right:20px;
+    float:right;
+}
+
+#pricing h3 { 
+    text-indent:0;
+}
+
+#footer {
+    height:100px;
+    font-size:1.5em;
+    text-align:center;
+    margin:-15px;
+    margin-top:40px;
+    border-bottom:40px solid gray;
+    
+}
