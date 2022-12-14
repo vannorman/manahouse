@@ -1,4 +1,4 @@
-html, body,  {
+html, body, * {
     font-family:Nunito;
 
 }
@@ -21,7 +21,7 @@ html, body,  {
     font-family:proximaNova;
     font-size:40px;
 }
-#title .sub { font-size:18px; font-family:Nunito}
+#title .sub { font-size:18px; font-family:proximaNova}
 
 #topSpacer { position:relative;height:300px;}
 
@@ -40,27 +40,26 @@ html, body,  {
 #menu {
     position:relative;
     height:900px;
-    font-family:Indie;
+    font-family:proximaNova;
     text-align:center;
     margin:-10px; 
 }
 .title {
-    font-size:2.5em;font-weight:bold;
+    font-size:2.5em;
     position:relative;
     top:40px;
-    font-family:Indie;
+    font-family:proximaNova;
     
 }
 .title2 {
-    font-size:3.5em;
-    font-weight:bold;
+    font-size:2.5em;
     position:relative;
     top:40px;
-    font-family:Indie;
+    font-family:proximaNova;
     text-align:center;
     margin-bottom:40px;
     margin-top:70px;
-     
+    height:55px;    
 }
 
 
@@ -109,10 +108,12 @@ html, body,  {
 #menu ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: gray; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+ font-size:.7em;
+    vertical-align:middle;
+    padding-bottom:5px;
 }
 #menu ul li {
     line-height:0;
@@ -145,15 +146,15 @@ html, body,  {
     display: inline-block;
     width:290px;
     height:420px;
-    outline:1px dotted blue;
+    outline:1px dotted gray;
 }
-#team .member img { width:250px;height:250px;border-radius:125px;margin:0 auto;}
+#team .member img { width:250px;height:250px;border-radius:125px;margin:15px auto 0 auto;}
 
 
 
 @font-face {
-    font-family: Indie;
-    src: url(/static/fonts/IndieFlower-Regular.ttf);
+    font-family: proximaNova;
+    src: url(/static/fonts/proximaNovaFlower-Regular.ttf);
 }
 @font-face {
     font-family: cloisterBlack;
@@ -161,6 +162,12 @@ html, body,  {
 }
 @font-face {
     font-family: proximaNova;
+    src: url(/static/fonts/ProximaNova-SemiBold.otf);
+
+}
+
+@font-face {
+    font-family: proximaNovaBlack;
     src: url(/static/fonts/ProximaNova-Black.ttf);
 }
 
@@ -172,7 +179,7 @@ html, body,  {
 /* MOSAIC from https://medium.com/@axel/mosaic-layouts-with-css-grid-d13f4e3ed2ae */
 
 .container{
-    top:50px;
+    top:10px;
     position:relative;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -215,7 +222,7 @@ html, body,  {
 
 	border-radius: 40px;
   box-sizing: border-box;
-	color: #00a84f;
+	color: #34b4eb;
 	display: block;
 	font-size:1.2em;
     height: 80px;
@@ -227,14 +234,14 @@ html, body,  {
 	text-transform: uppercase;
 	width: 264px;
 	z-index: 2;
+    transition: all 0.4s;
     
 }
 
 .apply:hover {
-background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+background-color: #34b4eb; 
 color:white;
 cursor:pointer;
-
 }
 
 .apply input {
@@ -244,7 +251,6 @@ cursor:pointer;
 	display: flex;
 	justify-content: center;
 	height: 100%;
-	transition: background .5s ease;
 	width: 100%;}
 
 .booknow {
@@ -262,6 +268,7 @@ cursor:pointer;
     text-align:center;
 }
 @media only screen and (max-width:760px){ #pricing {width:100%;}; }
+#pricing .note { font-size:1.2em;}
 
 #pricing .item {
     display:inline-block;
@@ -302,6 +309,7 @@ cursor:pointer;
     text-align:center;
     margin:-15px;
     margin-top:40px;
-    border-bottom:40px solid gray;
+    padding-bottom:80px;
+    border-bottom:80px solid gray;
     
 }
