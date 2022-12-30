@@ -31,7 +31,6 @@ html, body, * {
     margin:0 auto;
     text-align:center;
     font-size:1.2em;
-    padding-bottom:40px;
 }
 #brief h3 {margin-top:60px;}
 
@@ -295,8 +294,10 @@ cursor:pointer;
     border:1px dotted #444; 
     width:400px;margin:0 auto;
     padding-top:20px; 
+    margin-bottom:30px;
     text-align:center;
     font-family:NunitoBold;
+    font-size:1.2em;
 }
 
 #pricing {

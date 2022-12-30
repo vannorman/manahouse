@@ -16010,3 +16010,843 @@ Traceback (most recent call last):
   File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
     raise VariableDoesNotExist("Failed lookup for key "
 django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3940>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3af0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4a7070>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4861c0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3280>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3940>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4803d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f486e20>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3280>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3940>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4803d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f486e20>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3310>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3280>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4809a0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4861f0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3310>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3280>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4809a0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4861f0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a33a0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3310>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f480370>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f486c70>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a33a0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3310>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f480370>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f486c70>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3430>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a33a0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f46f760>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4a7a60>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3430>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a33a0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f46f760>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4a7a60>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a34c0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3430>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f46f730>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4a7f70>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a34c0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3430>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f46f730>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4a7f70>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3550>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a34c0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4383d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4a79d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3550>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a34c0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4383d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4a79d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a35e0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3550>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f438310>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f46f070>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a35e0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3550>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f438310>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f46f070>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3670>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a35e0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f438910>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f46fd60>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3670>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a35e0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f438910>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f46fd60>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3700>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3670>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4382b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f480e80>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3700>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3670>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4382b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f480e80>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3790>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3700>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f441640>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f480070>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3790>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3700>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f441640>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f480070>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a39d0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3790>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4416d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4805b0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a39d0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a3790>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4416d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4805b0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3b80>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a39d0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f441d90>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f438310>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3b80>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4a39d0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f441d90>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f438310>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f474a60>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f474af0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4804c0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f438190>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f474a60>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f474af0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4804c0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f438190>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4741f0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f474a60>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4a73d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f438940>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4741f0>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f474a60>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4a73d0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f438940>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3b80>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4741f0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4a7250>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4388e0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
+Exception while resolving variable 'now' in template 'index.html'.
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/mana.house/venv/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [now] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fd87f4a3b80>>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7fd87f4741f0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fd87f4a7250>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fd87f4388e0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'faq': [{'q': 'quesiton1', 'a': 'question2'}, {'q': 'quesiton1', 'a': 'question2'}]}]
