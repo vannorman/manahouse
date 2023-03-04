@@ -1,4 +1,15 @@
 from django.shortcuts import render
+from django.shortcuts import redirect
+
+def party(request):
+    return redirect("https://docs.google.com/forms/d/e/1FAIpQLScHjksqOaBXrBiPuGtu6W5v1tSK9NE_YJr9xjjTkINkhQR9lA/viewform?usp=sf_link")
+
+def simple_page(template):
+    def handler(request):
+        context = {}
+        return render(request,template,context)
+    return handler
+
 def main(request):
     """View function for home page of site."""
 

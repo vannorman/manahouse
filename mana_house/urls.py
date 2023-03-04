@@ -1,3 +1,4 @@
+from django.conf.urls import *
 from . import views
 """mana_house URL Configuration
 
@@ -18,6 +19,8 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+	url(r'^party/?$', views.party), 
+	url(r'^retreat/?$', views.simple_page('retreat.html')), 
     path('admin/', admin.site.urls),
     path('', views.main),
 ]
