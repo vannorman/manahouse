@@ -26,15 +26,52 @@ html, body, * {
 
 #topSpacer { position:relative;height:300px;}
 
+#fold1 {
+    height:450px;
+    width:100%;
+    position:relative;
+    top:0;
+
+}
+
 #brief 
 {
-    width:600px;
-    margin:0 auto;
-    text-align:center;
-    font-size:1.2em;
+    display:inline-block;
+text-align: justify;
+  text-justify: inter-word;
+    top:0;
+   position:absolute;
+    width:400px;
+    left:calc(50% - 450px);
+    font-size:1.05em;
 }
 #brief h3 {margin-top:60px;}
 
+#map {
+   position:absolute;
+   top:30px;
+    right:calc(50% - 500px);
+    width: 500px;
+    height:300px;
+    display:inline-block;
+    background-image:url('/static/img/map.jpg'); 
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+@media screen and (max-width: 950px){
+    #brief {
+        left:calc(50% - 200px);
+    }
+    #map {
+        left: calc(50% - 250px);
+        top:300px;
+    }
+    #fold1 {
+        height:650px;
+    }
+}
 
 #menu {
     position:relative;
